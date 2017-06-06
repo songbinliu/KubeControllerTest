@@ -12,6 +12,8 @@ to *produce* contents, and allow users to provide *EventHandlerFunc* to consume 
 Because *Events* come in some order, the storage for the *Reflector* should be able to keep this order; so it is reasonable to store the *Events* in a *Queue*
 which can provide *FIFO* access order. Users can provide different *ProcessFunc* to consume the *Events*.
 
+<img width="857" alt="controller.run" src="https://cloud.githubusercontent.com/assets/27221807/26830756/ddead29e-4a97-11e7-9854-af619be1bf9d.png">
+
 When *Controller.Run()* is called, a *Reflector* is created and get run in a seperated goroutine to *Produce* *Events*, 
 and *Controller.processLoop()* is running to *Consume* the *Events*.
 
