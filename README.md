@@ -15,7 +15,7 @@ which can provide *FIFO* access order. Users can provide different *ProcessFunc*
 <img width="800" alt="controller.run" src="https://cloud.githubusercontent.com/assets/27221807/26830756/ddead29e-4a97-11e7-9854-af619be1bf9d.png">
 
 When *Controller.Run()* is called, a *Reflector* is created and get run in a seperated goroutine to *Produce* *Events*, 
-and *Controller.processLoop()* is running to *Consume* the *Events*.
+and then *Controller.processLoop()* get started to *Consume* the *Events*.
 
 ### Run the Example ###
 ```console
