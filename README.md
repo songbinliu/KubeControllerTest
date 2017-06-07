@@ -1,7 +1,7 @@
 ## Toy example of the Usage of Kubernetes Controller ##
 
 ### Overview ###
-![controller](https://user-images.githubusercontent.com/27221807/26885727-6e52ef68-4b71-11e7-923a-bd31fdeeb732.png)
+<img width="400", alt="controller-reflector", src="https://user-images.githubusercontent.com/27221807/26885727-6e52ef68-4b71-11e7-923a-bd31fdeeb732.png">
 As shown in the example about [Kubernetes Reflector](https://github.com/songbinliu/KubeReflectorTest), *Reflector* is a framwork of *producer*: it collects
 the changes (or *Events*) of the Kubernetes resources. **Kubernetes Controller** providing a *Producer-Consumer* framework. It uses *Reflector*
 to *produce* contents, and allow users to provide *EventHandlerFunc* to consume the contents.
