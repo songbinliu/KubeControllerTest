@@ -2,7 +2,7 @@
 
 ### Overview ###
 <div style='text-align:center'>
-<img width="400" alt="controller-reflector" src="https://user-images.githubusercontent.com/27221807/26885727-6e52ef68-4b71-11e7-923a-bd31fdeeb732.png">
+<img width="500" alt="controller-reflector" src="https://user-images.githubusercontent.com/27221807/26885727-6e52ef68-4b71-11e7-923a-bd31fdeeb732.png">
 </div>
 
 As shown in the example about [Kubernetes Reflector](https://github.com/songbinliu/KubeReflectorTest), *Reflector* is a framwork of *producer*: it collects
