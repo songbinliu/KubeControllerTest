@@ -7,7 +7,7 @@
 
 As shown in the example about [Kubernetes Reflector](https://github.com/songbinliu/KubeReflectorTest), *Reflector* is a framwork of *producer*: it collects
 the changes (or *Events*) of the Kubernetes resources. **Kubernetes Controller** providing a *Producer-Consumer* framework. It uses *Reflector*
-to *produce* contents, and allow users to provide *EventHandlerFunc* to consume the contents.
+to *produce* contents, and allow users to provide *ProcessFunc* to consume the contents.
 
 
 ### Definition of Controller ###
